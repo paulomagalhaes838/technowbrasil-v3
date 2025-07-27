@@ -1,0 +1,86 @@
+/* style.css - Technow Brasil V3 */
+
+:root {
+  --primary: #00ffcc;
+  --secondary: #1f2937;
+  --dark-bg: #0a0f1a;
+  --text-light: #ffffff;
+  --accent: #7c3aed;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--dark-bg);
+  color: var(--text-light);
+  margin: 0;
+  padding: 0;
+}
+
+header.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(90deg, var(--secondary), var(--accent));
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+header .logo img {
+  height: 40px;
+}
+
+header .logo h1 {
+  font-size: 1.8rem;
+  background: linear-gradient(to right, var(--primary), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-menu a {
+  color: var(--text-light);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.hero {
+  padding: 6rem 2rem;
+  text-align: center;
+  background: #111;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.btn-hero {
+  display: inline-block;
+  background-color: var(--primary);
+  color: #000;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+footer {
+  background-color: var(--secondary);
+  color: #ccc;
+  padding: 1rem;
+  text-align: center;
+}
